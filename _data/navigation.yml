@@ -12,20 +12,23 @@ main:
     url: /search/
 
 docs:
-  - title: "대목차1"
+  - title: "알고리즘"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+      - title: "BFS_DFS"
+        url: /algorithms/BFS_DFS/
+      - title: "백트래킹"
+        url: /algorithms/백트래킹/
+      
+      - title: "DP"
+        url: /algorithms/DP/
 
 
-  - title: "대목차2"
+  - title: "프론트엔드"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+      - title: "css"
+        url: /frontends/css
+      - title: "html"
+        url: /frontends/html
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
