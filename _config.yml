@@ -19,15 +19,16 @@ locale                   : "ko-KR"
 title                    : "Dev Note"
 title_separator          : "|"
 subtitle                 : "10000 hour rule"
-name                     : "Jaehwan"
-description              : "Dev Jaehwan's story"
+name                     : "Jaehwan Lee"
+description              : "흔적 남기기😃"
 url                      : "https://Jaehwany.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "jaehwany/jaehwany.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/profile.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs             : true # true, false (default)
+breadcrumbs              : true # true, false (default)
+future                   : ture
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -102,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jaehwan(28)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Dev Jaehwan's story"
+  name             : "Jaehwan Lee"
+  avatar           : "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "공부기록 블로그👍"
   location         : "South Korea"
   email            : "eejh22@gmail.com"
   links:
