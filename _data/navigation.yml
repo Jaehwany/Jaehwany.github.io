@@ -11,24 +11,24 @@ main:
   - title: "Search"
     url: /search/
 
-docs:
-  - title: "알고리즘"
-    children:
-      - title: "BFS_DFS"
-        url: /algorithms/BFS_DFS/
-      - title: "백트래킹"
-        url: /algorithms/백트래킹/
+# docs:
+#   - title: "알고리즘"
+#     children:
+#       - title: "BFS_DFS"
+#         url: /algorithms/BFS_DFS/
+#       - title: "백트래킹"
+#         url: /algorithms/백트래킹/
       
-      - title: "DP"
-        url: /algorithms/DP/
+#       - title: "DP"
+#         url: /algorithms/DP/
 
 
-  - title: "프론트엔드"
-    children:
-      - title: "css"
-        url: /frontends/css
-      - title: "html"
-        url: /frontends/html
+#   - title: "프론트엔드"
+#     children:
+#       - title: "css"
+#         url: /frontends/css
+#       - title: "html"
+#         url: /frontends/html
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
