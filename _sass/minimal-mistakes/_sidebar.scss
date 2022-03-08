@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    width: calc(#{$right-sidebar-width-narrow} - 2.8em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -126,11 +126,12 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
-
+  //margin-left: 5px;
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
+    padding-left: 5px;
   }
 
   img {
@@ -150,11 +151,11 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-
+ // margin-left: 5px;
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
+    padding-left: 5px;
     padding-right: 0;
   }
 
@@ -166,7 +167,6 @@
 
 .author__name {
   margin: 0;
-
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
