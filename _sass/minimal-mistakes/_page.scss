@@ -73,7 +73,8 @@ body {
   line-height: 1;
 
   a {
-    color: #2a41c5;
+    color: rgb(0, 7, 102);
+    font-weight: bold;
     text-decoration: none;
   }
 
@@ -81,7 +82,7 @@ body {
     margin-top: -0.5em;
   }
 }
-
+  
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
