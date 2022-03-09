@@ -131,7 +131,7 @@ a {
   }
 
   &:visited {
-    color: rgb(86, 89, 226);
+    color:$link-color-hover;
   }
 
   &:hover {

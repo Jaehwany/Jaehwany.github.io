@@ -73,9 +73,11 @@ body {
   line-height: 1;
 
   a {
-    color: rgb(0, 7, 102);
+    color: $primary-color;
     font-weight: bold;
     text-decoration: none;
+    background-color: rgb(250, 255, 239);
+    font-size: 28px;
   }
 
   & + .page__meta {
@@ -316,6 +318,8 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
+  margin-top: 10px;
+  margin-bottom: 10px;
   .sep {
     display: none;
   }
@@ -327,12 +331,15 @@ body {
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  margin-top:3px;
+  padding: 3px 6px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
+  font-size: 13px;
+  
 
   &:hover {
     text-decoration: none;
