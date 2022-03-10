@@ -8,7 +8,7 @@
 
 .breadcrumbs {
   @include clearfix;
-  margin: 0 auto;
+  margin: 2px auto;
   max-width: 100%;
   padding-left: 1em;
   padding-right: 1em;
@@ -23,7 +23,7 @@
   }
 
   ol {
-    padding: 0;
+    padding-left: 0.3em;
     list-style: none;
     font-size: $type-size-6;
 
@@ -42,7 +42,7 @@
   }
 
   .current {
-    font-weight: bold;
+    font-weight: 700;
   }
 }
 

@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Jaehwan Lee"
-  avatar           :  "/assets/images/profile2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/assets/images/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "🔥시간 더 쓰면 그만이야🔥" #"공부기록 블로그😃"
   location         : "Somewhere"
   email            : 
