@@ -32,6 +32,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            
         <span class="nav__sub-title"># 프론트엔드</span>
             <ul>
                 {% for category in site.categories %}
@@ -77,7 +78,16 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-      
+
+        <span class="nav__sub-title"># 데이터베이스</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "MySQL" %}
+                        <li><a href="/categories/MySQL" class="">- MySQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title"># 인프라</span>
             <ul>
                 {% for category in site.categories %}
