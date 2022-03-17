@@ -138,6 +138,16 @@ from dual;
 
 <br>
 
+##### **▪** <span style="color:darkblue"> lpad</span> 지정한 길이 만큼 왼쪽부터 특정문자로 채움
+
+```sql
+-- name을 맨 앞과 맨 뒤에 2글자를 제외하고 나머지는 *로 처리해서 출력
+select name, concat(left(name,2), lpad('*',char_length(name)-4,'*'), right(name,2)) 
+from country;
+```
+
+<br>
+
 ##### **▪** <span style="color:darkblue"> mid, substring</span> 특정 위치부터 갯수만큼 리턴
 
 ``` sql
@@ -147,6 +157,20 @@ from dual;
 ```
 
 <br>
+
+##### **▪** <span style="color:darkblue"> substr</span> 
+
+``` sql
+-- country에서 code가 모음으로 시작하는 나라의 정보 출력
+select code, name 
+from country
+where substr(code, 1, 1) in ('a', 'e','i','o','u') 
+order by name limit 2, 3;
+```
+
+<br>
+
+
 
 ##### **▪** <span style="color:darkblue"> reverse</span> 반대로 나열
 
@@ -202,12 +226,12 @@ from employees;
 
 <br>
 
-##### **▪** <span style="color:darkblue">if null 문</span>
+##### **▪** <span style="color:darkblue">if, ifnull, nullif </span>
 
 ``` sql
--- if(논리식, 값1, 값2) 논리식-> true: 값1, false : 값2
--- ifnull(값1, 값2) 값1 == NULL : 값2,  값1 != NULL : 값1
--- nullif(값1, 값2) 값1 = 값2 -> true: NULL / false : 값1
+-- if(논리식, v1, v2) true: v1, false : v2
+-- ifnull(v, v2) v==NULL: v2,  v!=NULL: v
+-- nullif(v1, v2) v1==v2 -> true: NULL / false: v1
 select if(3 > 2, '크다', '작다'), if(3 > 5, '크다', '작다'),
 		ifnull(null, 'b'), ifnull('a', 'b')
 		nullif(3, 3), nullif(3, 5),
