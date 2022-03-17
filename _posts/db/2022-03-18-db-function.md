@@ -15,9 +15,9 @@ search: false
 
 ### ✅ 내장 함수
 
-- 숫자함수 : mod(나머지), round(반올림), trunc(내림), ceil(올림) , truncate(숫자를 기준으로 버림),,, etc
+- 숫자함수 : mod , round, trunc, ceil, truncate, etc
 
-- 문자함수 : lower, upper, length, substr, ltrim, rtrim, trim,,, etc
+- 문자함수 : lower, upper, length, substr, ltrim, rtrim, trim, etc
 
 <br>
 
