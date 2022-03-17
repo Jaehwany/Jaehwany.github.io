@@ -14,16 +14,16 @@ search: false
 
 ### ✔ 데이터베이스 생성 (CREATE)
 
-다국어 처리(utf8mb3 : <span style ="background-color:#f1f8ff">3byte</span>)
+
 
 ``` sql
+-- 다국어 처리(utf8mb3) : 3byte
 create database dbtest
 default character set utf8mb3 collate utf8mb3_general_ci;
 ```
 
-이모지 문자까지 처리(utf8mb4 :<span style ="background-color:#f1f8ff"> 4byte</span>)
-
 ``` sql
+-- 이모지 문자 처리(utf8mb4) : 4byte
 create database dbtest
 default character set utf8mb4 collate utf8mb4_general_ci;
 
