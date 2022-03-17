@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - DDL - 2"
+title:  "데이터베이스 생성"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -12,16 +12,16 @@ search: false
 
 <br>
 
-### ▪ 데이터베이스 생성 (CREATE)
+### ✔ 데이터베이스 생성 (CREATE)
 
-다국어 처리(utf8mb3 : 3byte)
+다국어 처리(utf8mb3 : <span style ="background-color:#f1f8ff">3byte</span>)
 
 ``` sql
 create database dbtest
 default character set utf8mb3 collate utf8mb3_general_ci;
 ```
 
-이모지 문자까지 처리(utf8mb4 : 4byte)
+이모지 문자까지 처리(utf8mb4 :<span style ="background-color:#f1f8ff"> 4byte</span>)
 
 ``` sql
 create database dbtest
@@ -48,7 +48,7 @@ Collation : 특정 문자 셋에 의해 문자들을 서로 '비교' 할 때 사
 
 <br>
 
-### ▪ 데이터베이스 변경 (ALTER)
+### ✔ 데이터베이스 변경 (ALTER)
 
 ``` sql
 alter database dbtest
@@ -57,7 +57,7 @@ default character set utf8mb4 collate utf8mb4_general_ci;
 
 <br>
 
-### ▪ 데이터베이스 삭제 (DROP)
+### ✔ 데이터베이스 삭제 (DROP)
 
 ``` sql
 drop database dbtest;
@@ -65,7 +65,7 @@ drop database dbtest;
 
 <br>
 
-### ▪ 데이터베이스 사용 (USE)
+### ✔ 데이터베이스 사용 (USE)
 
 ``` sql
 use datadb;
