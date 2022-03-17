@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "데이터베이스 생성"
+title:  "MySQL - 데이터베이스 생성"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
