@@ -17,6 +17,8 @@ Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/97
 
 Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/971445372ea1b0907426997825eb4779dce7b224/Subquery/Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
 
+<br>
+
 ### ✔ 스칼라 서브 쿼리 
 
 ------------------------------------------------------------------
