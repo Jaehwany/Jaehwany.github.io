@@ -76,6 +76,18 @@ from dual;
 
 <br>
 
+##### **▪** <span style="color:darkblue"> format</span> 세자리마다 콤마찍기
+
+``` sql
+-- format(컬럼명,소수점이하 자리수) : 소수이하는 절삭,세자리마다 콤마(,)
+select format(avg(salary),0) as "사원급여평균"
+from employees;
+```
+
+![image-20220317015156254](../../images/db/2022-03-18-db-function/image-20220317015156254.png)
+
+<br>
+
 ##### **▪** <span style="color:darkblue"> mod, %</span> 나머지 구하기
 
 ``` sql
