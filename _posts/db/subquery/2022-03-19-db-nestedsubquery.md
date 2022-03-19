@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - 중첩 서브 쿼리 (Nested)"
+title:  "MySQL - 중첩 서브 쿼리 (Nested Subquery)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
