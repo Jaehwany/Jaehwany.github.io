@@ -13,7 +13,9 @@ order : 12
 
 <br>
 
-Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/971445372ea1b0907426997825eb4779dce7b224/Subquery/Subquery_from)
+Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/2.%20Subquery_InlineView(from)/Inlineview_Subquery.sql)
+
+<br>
 
 ### ✔ 인라인 뷰
 

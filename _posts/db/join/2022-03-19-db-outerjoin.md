@@ -13,9 +13,11 @@ order : 8
 
 <br>
 
-Source Link : [Join Example 1](https://github.com/Jaehwany/Database/blob/8152094e4f1159e61303b91a9f7cfd1be480ea9c/Join/Join_example1.sql)
+Source Link : [Join Example 1](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/2.%20Join/1.%20Join_example.sql)
 
-### ✔Outer JOIN ?
+<br>
+
+### ✔ Outer JOIN ?
 
 ------------------------------------------------------------------
 
@@ -67,7 +69,7 @@ order by 1;
 
 <br>
 
-### ✔Set Operator
+### ✔ Set Operator
 
 ------------------------------------------------------------------
 

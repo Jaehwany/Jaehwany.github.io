@@ -13,9 +13,9 @@ order : 13
 
 <br>
 
-Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/971445372ea1b0907426997825eb4779dce7b224/Subquery/Subquery_select)
+Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/3.%20Subquery_scalar(select)/Scalar_Subquery.sql)
 
-Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/971445372ea1b0907426997825eb4779dce7b224/Subquery/Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
+Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/4.%20Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
 
 <br>
 
@@ -59,7 +59,7 @@ select * from employees;
 -- employees table의 구조만 emp_blank라는 이름으로 생성(컬럼 이름 동일).
 create table emp_blank
 select * from employees
-where 1 = 0;
+where 1 = 0; -- 만족하는 것이 없기 때문에 구조만 가져온다
 
 -- 50번 부서의 사번(eid), 이름(name), 급여(sal), 부서번호(did)만 emp50이라는 이름으로 생성.
 create table emp50
