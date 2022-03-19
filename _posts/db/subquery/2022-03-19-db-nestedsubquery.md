@@ -13,7 +13,7 @@ order : 11
 
 <br>
 
-Source Link : [Nested Subquery](https://github.com/Jaehwany/Database/blob/43638da73300875a238b0bba06114ba4333b3b41/Subquery/Nested_Subquery%201.sql)
+Source Link : [Nested Subquery](https://github.com/Jaehwany/Database/blob/971445372ea1b0907426997825eb4779dce7b224/Subquery/subquery_where)
 
 ### ✔ 중첩 서브 쿼리 - 단일 행
 
