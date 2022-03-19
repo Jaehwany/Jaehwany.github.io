@@ -12,7 +12,7 @@ body {
   padding: 0;
   color: $masthead-link-color;
   font-family: -apple-system,BlinkMacSystemFont,"Nanum Gothic";
-  line-height: 1.5;
+  line-height: 2;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
