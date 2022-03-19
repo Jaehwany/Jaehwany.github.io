@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - Inner Join, Natural Join"
+title:  "7. DB - Inner Join, Natural Join"
 categories: MySQL
 tags: [database,MySQL]
 toc: true

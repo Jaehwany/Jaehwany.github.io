@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - Self Join, None-equi Join, Cross JOIN"
+title:  "9. DB - Self Join, None-equi Join, Cross JOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true

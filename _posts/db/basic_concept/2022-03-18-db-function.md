@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - 내장 함수"
+title:  "5. DB - 내장 함수"
 categories: MySQL
 tags: [database,MySQL]
 toc: true

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - OuterJOIN"
+title:  "8. DB - OuterJOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true

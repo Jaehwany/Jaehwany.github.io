@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - 인라인뷰(Inline View Subquery)"
+title:  "12. DB - 인라인 뷰(Inline View)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true

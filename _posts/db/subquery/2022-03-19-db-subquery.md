@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL - SubQuery"
+title:  "10. DB - Subquery"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
