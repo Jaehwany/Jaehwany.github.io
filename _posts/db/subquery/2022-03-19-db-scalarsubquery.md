@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "13. DB - 스칼라 서브쿼리 & 서브쿼리 활용(CUD)"
+title:  "13, DB - 스칼라 서브쿼리 & 서브쿼리 활용(CUD)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,9 +13,9 @@ order : 13
 
 <br>
 
-Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/3.%20Subquery_scalar(select)/Scalar_Subquery.sql)
+👉 Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/3.%20Subquery_scalar(select)/Scalar_Subquery.sql)
 
-Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/4.%20Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
+👉 Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/4.%20Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
 
 <br>
 

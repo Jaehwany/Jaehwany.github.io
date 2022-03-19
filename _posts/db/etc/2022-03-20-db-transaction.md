@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "14. DB - Transaction"
+title:  "14, DB - Transaction 처리"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,7 +13,7 @@ order : 14
 
 <br>
 
-Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/2.%20Subquery_InlineView(from)/Inlineview_Subquery.sql)
+👉 Source Link : [트랜잭션 처리](https://github.com/Jaehwany/Database/blob/7e2dbfa8930a7e402d17be3c31d67dafd58f0cee/4.%20Transaction/1.%20transaction%20%EC%B2%98%EB%A6%AC.sql)
 
 <br>
 
@@ -30,19 +30,19 @@ Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/03
 
 -----------------------------------------------
 
-- 원자성 : 트랜잭션이 **DB에 모두 반영되거나, 전혀 반영되지 않음**를 뜻한다.
-- 일관성 : 트랜잭션 **처리의 결과가 항상 일관되어야 한다**
-- 독립성 : **하나의 트랜잭션은 다른 트랜잭션에 끼어들 수 없는 독립성**을 가진다
-- 지속성 : **트랜잭션이 성공적으로 완료되면 영구적으로 결과에 반영**되어야 한다
+- <span style ="background-color:#f1f8ff">원자성</span> : 트랜잭션이 **DB에 모두 반영되거나, 전혀 반영되지 않음**를 뜻한다.
+- <span style ="background-color:#f1f8ff">일관성</span> : 트랜잭션 **처리의 결과가 항상 일관되어야 한다**
+- <span style ="background-color:#f1f8ff">독립성 </span>: **하나의 트랜잭션은 다른 트랜잭션에 끼어들 수 없는 독립성**을 가진다
+- <span style ="background-color:#f1f8ff">지속성 </span>: **트랜잭션이 성공적으로 완료되면 영구적으로 결과에 반영**되어야 한다
 
 <br>
 
-### ✔ Commit, Rollback 
+### ✔ 트랜잭션 처리 Commit, Rollback 
 
 ------------------------------------------------------------------
 
-- commit : 일의 시작과 끝이 완벽하게 마무리가 되면 테이블에 적용 (일관성 있는 상태)
-- rollback : 처리도중 인터럽트(interrupt:장애)가 발생하면 되돌아옴(원자성이 깨진 상태)
+- <span style ="background-color:#fff5b1">commit</span> : 일의 시작과 끝이 완벽하게 마무리가 되면 테이블에 적용 ( 일관성 있는 상태 )
+- <span style ="background-color:#fff5b1">rollback</span>: 처리도중 인터럽트(interrupt:장애)가 발생하면 되돌아옴 ( 원자성이 깨진 상태 )
 
 ``` sql
 use ssafydb;

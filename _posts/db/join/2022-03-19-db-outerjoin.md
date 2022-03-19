@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "8. DB - OuterJOIN"
+title:  "8, DB - OuterJOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,7 +13,7 @@ order : 8
 
 <br>
 
-Source Link : [Join Example 1](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/2.%20Join/1.%20Join_example.sql)
+👉 Source Link : [Join Example 1](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/2.%20Join/1.%20Join_example.sql)
 
 <br>
 

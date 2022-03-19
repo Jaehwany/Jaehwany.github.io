@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "12. DB - 인라인 뷰(Inline View)"
+title:  "12, DB - 인라인 뷰(Inline View)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,7 +13,7 @@ order : 12
 
 <br>
 
-Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/2.%20Subquery_InlineView(from)/Inlineview_Subquery.sql)
+👉 Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/2.%20Subquery_InlineView(from)/Inlineview_Subquery.sql)
 
 <br>
 

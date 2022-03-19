@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "10. DB - Subquery"
+title:  "10, DB - Subquery"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,7 +13,7 @@ order : 10
 
 <br>
 
-Source Link : [Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery)
+👉 Source Link : [Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery)
 
 <br>
 

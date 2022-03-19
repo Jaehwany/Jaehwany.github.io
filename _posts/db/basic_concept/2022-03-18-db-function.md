@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "5. DB - 내장 함수"
+title:  "5, DB - 내장 함수"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,7 +13,7 @@ order : 5
 
 <br>
 
-Source Link : [내장 함수](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/4.%20function.sql)
+👉 Source Link : [내장 함수](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/4.%20function.sql)
 
 <br>
 
