@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "13, DB - 스칼라 서브쿼리 & 서브쿼리 활용(CUD)"
+title:  "13, DB - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -44,7 +44,7 @@ from dual;
 
 <br>
 
-### ✔ 서브 쿼리 활용 (CUD)
+### ✔ 서브 쿼리 활용 (CIUD)
 
 ------------------------------------------------------------------
 
