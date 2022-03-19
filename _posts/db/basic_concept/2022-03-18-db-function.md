@@ -13,7 +13,7 @@ order : 5
 
 <br>
 
-Source Link : [Make_database](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/4.%20function.sql)
+Source Link : [내장 함수](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/4.%20function.sql)
 
 <br>
 
@@ -266,8 +266,6 @@ from dual;
 
 ![image-20220317020204818](../../images/db/2022-03-18-db-function/image-20220317020204818.png)
 
-<br>
-
 ``` sql
 -- 현재 날짜(년월일) / 현재 날짜(년월일) / 현재 시간(시분초) /현재 시간(시분초)
 select curdate(), current_date(), curtime(), current_time()
@@ -275,8 +273,6 @@ from dual;
 ```
 
 ![image-20220317020303928](../../images/db/2022-03-18-db-function/image-20220317020303928.png)
-
-<br>
 
 ``` sql
 select now() 현재시간, 
@@ -287,8 +283,6 @@ from dual;
 ```
 
 ![image-20220317020404087](../../images/db/2022-03-18-db-function/image-20220317020404087.png)
-
-<br>
 
 ``` sql
 -- dayofweek() : 일월화수목금토(1234567) 중
@@ -302,8 +296,6 @@ from dual;
 ```
 
 ![image-20220317020532232](../../images/db/2022-03-18-db-function/image-20220317020532232.png)
-
-<br>
 
 ``` sql
 select now(), 
