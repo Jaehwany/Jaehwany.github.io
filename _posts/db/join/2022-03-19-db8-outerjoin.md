@@ -4,6 +4,7 @@ title:  "8, DB - OuterJOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

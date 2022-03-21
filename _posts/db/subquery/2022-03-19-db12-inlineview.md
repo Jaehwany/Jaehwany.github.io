@@ -4,6 +4,7 @@ title:  "12, DB - 인라인 뷰(Inline View)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

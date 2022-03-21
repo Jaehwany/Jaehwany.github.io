@@ -4,6 +4,7 @@ title:  "7, DB - Inner Join, Natural Join"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

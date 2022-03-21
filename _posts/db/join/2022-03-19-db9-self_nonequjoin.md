@@ -4,6 +4,7 @@ title:  "9, DB - Self Join, None-equi Join, Cross JOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

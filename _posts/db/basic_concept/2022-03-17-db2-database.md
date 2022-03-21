@@ -4,6 +4,7 @@ title:  "2, DB - 데이터베이스 생성"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

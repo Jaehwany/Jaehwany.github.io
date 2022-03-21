@@ -4,6 +4,7 @@ title:  "5, DB - 내장 함수"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

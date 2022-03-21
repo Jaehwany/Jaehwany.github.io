@@ -2,6 +2,7 @@
 title: "BOJ"
 layout: archive
 permalink: /categories/boj
+toc_sticky: true
 author_profile: true
 sidebar_main: true
 ---

@@ -4,6 +4,7 @@ title:  "14, DB - Transaction 처리"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"

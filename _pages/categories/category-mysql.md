@@ -2,6 +2,7 @@
 title: "MySQL"
 layout: archive
 permalink: /categories/MySQL
+toc_sticky: true
 author_profile: true
 sidebar_main: true
 ---

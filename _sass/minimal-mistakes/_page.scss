@@ -60,9 +60,9 @@ body {
     .page__share {
       position: relative;
       float: left;
-      margin-left: 0;
+      margin-left: 50px;
       margin-right: 0;
-      width: 100%;
+      width: 115%;
       clear: both;
     }
   }
@@ -73,6 +73,7 @@ body {
   line-height: 1;
 
   a {
+    margin-left:50px;
     color: $primary-color;
     font-weight: bold;
     text-decoration: none;
@@ -320,6 +321,7 @@ body {
 .page__taxonomy {
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left:50px;
   .sep {
     display: none;
   }

@@ -4,6 +4,7 @@ title:  "11, DB - 중첩 서브 쿼리 (Nested Subquery)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
+toc_sticky: true
 author_profile: false
 sidebar:
     nav: "docs"
