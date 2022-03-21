@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "13, DB - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
+title:  "MySQL 13 - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,6 +13,8 @@ order : 13
 ---
 
 <br>
+
+![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
 👉 Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/3.%20Subquery_scalar(select)/Scalar_Subquery.sql)
 
@@ -45,11 +47,12 @@ from dual;
 
 <br>
 
-### ✔ 서브 쿼리 활용 (CIUD)
+### ✔ 서브 쿼리 - CREATE, INSERT, UPDATE, DELETE
 
 ------------------------------------------------------------------
 
 - 서브 쿼리를 이용한 CREATE, INSERT, UPDATE, DELETE
+
 - CREATE
 
 ``` sql

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "14, DB - Transaction 처리"
+title:  "MySQL 14 - Transaction 처리"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -14,11 +14,13 @@ order : 14
 
 <br>
 
+![image-20220322031630012](../../../images/db/image-20220322031630012.png)
+
 👉 Source Link : [트랜잭션 처리](https://github.com/Jaehwany/Database/blob/7e2dbfa8930a7e402d17be3c31d67dafd58f0cee/4.%20Transaction/1.%20transaction%20%EC%B2%98%EB%A6%AC.sql)
 
 <br>
 
-### ✔ 트랜잭션, Transaction
+### ✔ 트랜잭션
 
 ------------------------------------------------------------------
 
@@ -27,7 +29,7 @@ order : 14
 
 <br>
 
-### ✔ 트랜잭션의 특징
+### ✔ 트랜잭션 특징
 
 -----------------------------------------------
 
@@ -38,7 +40,7 @@ order : 14
 
 <br>
 
-### ✔ 트랜잭션 처리 Commit, Rollback 
+### ✔ 트랜잭션 처리
 
 ------------------------------------------------------------------
 
@@ -83,7 +85,7 @@ update book set subject='JSP 마스터북' where num=1;
 
 
 
-![image-20220320031820402](../../../images/db/2022-03-20-db-transaction/image-20220320031820402.png)
+<img src="../../../images/db/2022-03-20-db-transaction/image-20220320031820402.png" alt="image-20220320031820402" style="zoom: 80%;" />
 
 - 트랜젝션 처리를 했을 경우
 

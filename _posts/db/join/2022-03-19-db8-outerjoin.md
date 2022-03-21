@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "8, DB - OuterJOIN"
+title:  "MySQL 8 - OuterJOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,6 +13,8 @@ order : 8
 ---
 
 <br>
+
+![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
 👉 Source Link : [Join Example 1](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/2.%20Join/1.%20Join_example.sql)
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "11, DB - 중첩 서브 쿼리 (Nested Subquery)"
+title:  "MySQL 11 - 중첩 서브 쿼리 (Nested Subquery)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,6 +13,8 @@ order : 11
 ---
 
 <br>
+
+![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
 👉 Source Link : [Nested Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/1.%20Subquery_nested(where))
 

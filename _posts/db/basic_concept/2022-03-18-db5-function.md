@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "5, DB - 내장 함수"
+title:  "MySQL 5 - 내장 함수"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -13,6 +13,8 @@ order : 5
 ---
 
 <br>
+
+![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
 👉 Source Link : [내장 함수](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/4.%20function.sql)
 
@@ -116,14 +118,7 @@ from dual;
 
 <br>
 
-##### **▪** <span style="color:darkblue">ASCII 코드</span>
 
-``` sql
-select ASCII('0'), ASCII('A'), ASCII('a')
-from dual;
-```
-
-<br>
 
 ##### **▪** <span style="color:darkblue"> insert</span> 삽입
 
@@ -145,7 +140,7 @@ from dual;
 
 <br>
 
-##### **▪** <span style="color:darkblue"> instr</span> 문자열의 위치
+##### **▪** <span style="color:darkblue"> instr</span> 문자열 위치
 
 ``` sql
 -- 결과 : 7
@@ -155,7 +150,9 @@ from dual;
 
 <br>
 
-##### **▪** <span style="color:darkblue"> lpad</span> 지정한 길이 만큼 왼쪽부터 특정문자로 채움
+##### **▪** <span style="color:darkblue">lpad</span> 문자 출력
+
+지정한 길이 만큼 왼쪽부터 특정문자로 채움
 
 ```sql
 -- name을 맨 앞과 맨 뒤에 2글자를 제외하고 나머지는 *로 처리해서 출력
@@ -165,11 +162,25 @@ from country;
 
 <br>
 
-##### **▪** <span style="color:darkblue"> mid, substring</span> 특정 위치부터 갯수만큼 리턴
+##### **▪** <span style="color:darkblue"> mid, substring</span> 
+
+특정 위치부터 갯수만큼 리턴
 
 ``` sql
 -- 결과 : ssafy / ssafy
 select mid('hello ssafy !!!', 7, 5), substring('hello ssafy !!!', 7, 5)
+from dual;
+```
+
+<br>
+
+##### **▪** <span style="color:darkblue">left, right</span> 
+
+왼쪽, 오른쪽에서 갯수만큼 추출 
+
+``` sql
+-- 결과 : hello  /   fy !!!
+select left('hello ssafy !!!', 5), right('hello ssafy !!!', 6)
 from dual;
 ```
 
@@ -187,13 +198,20 @@ order by name limit 2, 3;
 
 <br>
 
-
-
 ##### **▪** <span style="color:darkblue"> reverse</span> 반대로 나열
 
 ```sql
 -- 결과 : hello ssafy !!!
 select reverse('!!! yfass olleh')
+from dual;
+```
+
+<br>
+
+##### **▪**  <span style="color:darkblue">ASCII 코드</span>
+
+``` sql
+select ASCII('0'), ASCII('A'), ASCII('a')
 from dual;
 ```
 
@@ -223,15 +241,7 @@ where lower(last_name)='king';
 
 <br>
 
-##### **▪** <span style="color:darkblue">left, right</span> 왼쪽, 오른쪽에서 갯수만큼 추출 
 
-``` sql
--- 결과 : hello  /   fy !!!
-select left('hello ssafy !!!', 5), right('hello ssafy !!!', 6)
-from dual;
-```
-
-<br>
 
 ##### **▪** <span style="color:darkblue">count, sum, avg, max, min</span>
 
