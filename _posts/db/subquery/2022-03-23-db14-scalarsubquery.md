@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 14 - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
+title:  "MySQL 14 - 스칼라 서브쿼리 & 서브쿼리 활용"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
