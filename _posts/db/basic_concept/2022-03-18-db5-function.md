@@ -20,7 +20,7 @@ order : 5
 
 <br>
 
-### ✅ 내장 함수
+###### ✅ 내장 함수
 
 - 숫자함수 : mod , round, trunc, ceil, truncate, etc
 

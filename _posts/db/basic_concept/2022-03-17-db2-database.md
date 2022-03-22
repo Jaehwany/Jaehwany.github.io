@@ -20,9 +20,7 @@ order : 2
 
 <br>
 
-### ✔ 데이터베이스 생성 (CREATE)
-
-
+###### ✔ 데이터베이스 생성 (CREATE)
 
 ``` sql
 -- 다국어 처리(utf8mb3) : 3byte
@@ -56,7 +54,7 @@ Collation : 특정 문자 셋에 의해 문자들을 서로 '비교' 할 때 사
 
 <br>
 
-### ✔ 데이터베이스 변경 (ALTER)
+###### ✔ 데이터베이스 변경 (ALTER)
 
 ``` sql
 alter database dbtest
@@ -65,7 +63,7 @@ default character set utf8mb4 collate utf8mb4_general_ci;
 
 <br>
 
-### ✔ 데이터베이스 삭제 (DROP)
+###### ✔ 데이터베이스 삭제 (DROP)
 
 ``` sql
 drop database dbtest;
@@ -73,7 +71,7 @@ drop database dbtest;
 
 <br>
 
-### ✔ 데이터베이스 사용 (USE)
+###### ✔ 데이터베이스 사용 (USE)
 
 ``` sql
 use datadb;

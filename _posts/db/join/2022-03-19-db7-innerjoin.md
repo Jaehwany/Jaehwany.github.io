@@ -20,9 +20,7 @@ order : 7
 
 <br>
 
-### ✔ Inner JOIN ?
-
-------------------------------------------------------------------
+###### ✔ Inner JOIN ?
 
 - 가장 일반적인 JOIN의 종류, 교집합
 
@@ -34,9 +32,11 @@ order : 7
 
 <br>
 
-### ✔ Inner Join Example
+###### ✔ Inner Join Example
 
 ------------------------------------------------------------------
+
+
 
 ``` sql
 -- 방법1.MySQL구문
@@ -56,7 +56,9 @@ join locations using(location_id);
 
 <br>
 
-### ✔ Natural JOIN
+<br>
+
+###### ✔ Natural JOIN
 
 ------------------------------------------------------------------
 
@@ -70,7 +72,9 @@ join locations using(location_id);
 
 <br>
 
-### ✔ Natural Join Example
+<br>
+
+###### ✔ Natural Join Example
 
 ------------------------------------------------------------------
 

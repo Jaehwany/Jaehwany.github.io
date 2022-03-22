@@ -20,7 +20,7 @@ order : 14
 
 <br>
 
-### ✔ 트랜잭션
+###### ✔ 트랜잭션
 
 ------------------------------------------------------------------
 
@@ -29,7 +29,7 @@ order : 14
 
 <br>
 
-### ✔ 트랜잭션 특징
+###### ✔ 트랜잭션 특징
 
 -----------------------------------------------
 
@@ -40,12 +40,12 @@ order : 14
 
 <br>
 
-### ✔ 트랜잭션 처리
+###### ✔ 트랜잭션 처리
 
 ------------------------------------------------------------------
 
-- <span style ="background-color:#fff5b1">commit</span> : 일의 시작과 끝이 완벽하게 마무리가 되면 테이블에 적용 ( 일관성 있는 상태 )
-- <span style ="background-color:#fff5b1">rollback</span>: 처리도중 인터럽트(interrupt:장애)가 발생하면 되돌아옴 ( 원자성이 깨진 상태 )
+- <span style ="background-color:#fff5b1">commit</span> : 일의 시작과 끝이 완벽하게 마무리가 되면 테이블에 적용 (일관성 있는 상태)
+- <span style ="background-color:#fff5b1">rollback</span> : 처리도중 인터럽트(interrupt:장애)가 발생하면 되돌아옴 (원자성 깨진 상태)
 
 ``` sql
 use ssafydb;
@@ -86,6 +86,8 @@ update book set subject='JSP 마스터북' where num=1;
 
 
 <img src="../../../images/db/2022-03-20-db-transaction/image-20220320031820402.png" alt="image-20220320031820402" style="zoom: 80%;" />
+
+<br>
 
 - 트랜젝션 처리를 했을 경우
 
