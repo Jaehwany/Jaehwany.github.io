@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 13 - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
+title:  "MySQL 14 - 스칼라 서브쿼리 & 서브쿼리 활용(CIUD)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 13
+order : 14
 ---
 
 <br>
@@ -23,8 +23,6 @@ order : 13
 <br>
 
 ###### ✔ 스칼라 서브 쿼리 
-
-------------------------------------------------------------------
 
 - SELECT 절에 있는 서브 쿼리
 - 한개의 행만 반환
@@ -45,11 +43,11 @@ select
 from dual;
 ```
 
+------------------------------
+
 <br>
 
 ###### ✔ 서브 쿼리 - CREATE, INSERT, UPDATE, DELETE
-
-------------------------------------------------------------------
 
 - 서브 쿼리를 이용한 CREATE, INSERT, UPDATE, DELETE
 
@@ -72,7 +70,7 @@ from employees
 where department_id = 50;
 ```
 
-<br>
+-------------
 
 - INSERT
 
@@ -83,7 +81,7 @@ select * from employees
 where department_id = 80;
 ```
 
-<br>
+----------------
 
 - UPDATE
 
@@ -94,7 +92,7 @@ set sal = sal + 500
 where sal < (select avg(salary) from employees);
 ```
 
-<br>
+------------
 
 - DELETE
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 8 - OuterJOIN"
+title:  "MySQL 9 - OuterJOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 8
+order : 9
 ---
 
 <br>

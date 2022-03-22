@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 7 - Inner Join, Natural Join"
+title:  "MySQL 8 - Inner Join, Natural Join"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 7
+order : 8
 ---
 
 <br>
@@ -45,7 +45,7 @@ from employees e, departments d
 where e.department_id = d.department_id;
 ```
 
-<br>
+----------
 
 ``` sql
 -- 방법2.Ansi표준구문
@@ -85,7 +85,7 @@ from departments
 inner join employees using(department_id,manager_id);
 ```
 
-<br>
+-------------
 
 ``` sql
 -- 방법2.Natural 조인 이용

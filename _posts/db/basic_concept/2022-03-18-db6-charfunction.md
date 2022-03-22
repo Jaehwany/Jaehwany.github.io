@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 5 - 내장 함수"
+title:  "MySQL 6 - 문자 함수"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 5
+order : 6
 ---
 
 <br>
@@ -20,7 +20,7 @@ order : 5
 
 <br>
 
-###### ✅ 내장 함수
+### ✅ 내장 함수
 
 - 숫자함수 : mod , round, trunc, ceil, truncate, etc
 
@@ -28,97 +28,9 @@ order : 5
 
 <br>
 
-##### **▪** <span style="color:darkblue">abs </span>절대값 
+###### ✔ 문자 함수
 
-``` sql
-select abs(-5), abs(0), abs(+5)
-from dual;
-```
-
-<br>
-
-##### **▪** <span style="color:darkblue">ceil</span> 올림
-
-``` sql
-select ceil(12.2), ceiling(12.2), ceil(-12.2), ceiling(-12.2)
-from dual;
-```
-
-<br>
-
-##### **▪** <span style="color:darkblue"> floor</span> 내림
-
-``` sql
-select floor(12.6), floor(-12.2)
-from dual;
-```
-
-<br>
-
-##### **▪** <span style="color:darkblue"> round</span> 반올림
-
-``` sql
-select round(1526.159), round(1526.159, 0), round(1526.159, 1), 
-round(1526.159, 2), round(1526.159, -1), round(1526.159, -3)
-from dual;
-```
-
-![image-20220317015024910](../../images/db/2022-03-18-db-function/image-20220317015024910.png)
-
-<br>
-
-##### **▪** <span style="color:darkblue"> truncate</span> 버림
-
-``` sql
-select truncate(1526.159, 0), truncate(1526.159, 1), truncate(1526.159, 2), 
-truncate(1526.159, -1), truncate(1526.159, -3)
-from dual;
-```
-
-![image-20220317015156254](../../images/db/2022-03-18-db-function/image-20220317015156254.png)
-
-<br>
-
-##### **▪** <span style="color:darkblue"> format</span> 세자리마다 콤마찍기
-
-``` sql
--- format(컬럼명,소수점이하 자리수) : 소수이하는 절삭,세자리마다 콤마(,)
-select format(avg(salary),0) as "사원급여평균"
-from employees;
-```
-
-![image-20220317015156254](../../images/db/2022-03-18-db-function/image-20220317015156254.png)
-
-<br>
-
-##### **▪** <span style="color:darkblue"> mod, %</span> 나머지 구하기
-
-``` sql
-select mod(8, 3), 8 % 3
-from dual;
-```
-
-<br>
-
-##### **▪** <span style="color:darkblue"> pow</span> 거듭제곱 구하기
-
-``` sql
-select pow(2,3), power(2,3)
-from dual;
-```
-
-<br>
-
-##### **▪** <span style="color:darkblue"> greatest / least </span>최댓값 / 최솟값
-
-``` sql
-select greatest(4, 3, 7, 5, 9), least(4, 3, 7, 5, 9)
-from dual;
-```
-
-<br>
-
-
+----------------
 
 ##### **▪** <span style="color:darkblue"> insert</span> 삽입
 
@@ -130,6 +42,8 @@ from dual;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue"> replace </span>교환
 
 ``` sql
@@ -140,6 +54,8 @@ from dual;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue"> instr</span> 문자열 위치
 
 ``` sql
@@ -149,6 +65,8 @@ from dual;
 ```
 
 <br>
+
+-----------------
 
 ##### **▪** <span style="color:darkblue">lpad</span> 문자 출력
 
@@ -162,6 +80,8 @@ from country;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue"> mid, substring</span> 
 
 특정 위치부터 갯수만큼 리턴
@@ -173,6 +93,8 @@ from dual;
 ```
 
 <br>
+
+-----------------
 
 ##### **▪** <span style="color:darkblue">left, right</span> 
 
@@ -186,6 +108,8 @@ from dual;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue"> substr</span> 
 
 ``` sql
@@ -198,6 +122,8 @@ order by name limit 2, 3;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue"> reverse</span> 반대로 나열
 
 ```sql
@@ -208,6 +134,8 @@ from dual;
 
 <br>
 
+-----------------
+
 ##### **▪**  <span style="color:darkblue">ASCII 코드</span>
 
 ``` sql
@@ -216,6 +144,8 @@ from dual;
 ```
 
 <br>
+
+-----------------
 
 ##### **▪** <span style="color:darkblue">Upper</span>
 
@@ -229,6 +159,8 @@ where upper(last_name)='KING';
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue">Lower</span>
 
 문자열을 소문자로
@@ -241,17 +173,7 @@ where lower(last_name)='king';
 
 <br>
 
-
-
-##### **▪** <span style="color:darkblue">count, sum, avg, max, min</span>
-
-``` sql
--- 사원의 총수, 급여의 합, 급여의 평균, 최고급여, 최저급여
-select count(employee_id), sum(salary), avg(salary), max(salary), min(salary)
-from employees;
-```
-
-<br>
+-----------------
 
 ##### **▪** <span style="color:darkblue">if, ifnull, nullif </span>
 
@@ -267,6 +189,8 @@ from dual;
 
 <br>
 
+-----------------
+
 ##### **▪** <span style="color:darkblue">시간 함수</span>
 
 ``` sql
@@ -277,6 +201,8 @@ from dual;
 
 ![image-20220317020204818](../../images/db/2022-03-18-db-function/image-20220317020204818.png)
 
+-----------------
+
 ``` sql
 -- 현재 날짜(년월일) / 현재 날짜(년월일) / 현재 시간(시분초) /현재 시간(시분초)
 select curdate(), current_date(), curtime(), current_time()
@@ -284,6 +210,8 @@ from dual;
 ```
 
 ![image-20220317020303928](../../images/db/2022-03-18-db-function/image-20220317020303928.png)
+
+-----------------
 
 ``` sql
 select now() 현재시간, 
@@ -294,6 +222,8 @@ from dual;
 ```
 
 ![image-20220317020404087](../../images/db/2022-03-18-db-function/image-20220317020404087.png)
+
+-----------------
 
 ``` sql
 -- dayofweek() : 일월화수목금토(1234567) 중
@@ -307,6 +237,8 @@ from dual;
 ```
 
 ![image-20220317020532232](../../images/db/2022-03-18-db-function/image-20220317020532232.png)
+
+-----------------
 
 ``` sql
 select now(), 

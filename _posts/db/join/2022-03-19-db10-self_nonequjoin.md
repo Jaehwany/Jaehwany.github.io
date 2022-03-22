@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 9 - Self Join, None-equi Join, Cross JOIN"
+title:  "MySQL 10 - Self Join, None-equi Join, Cross JOIN"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 9
+order : 10
 ---
 
 <br>

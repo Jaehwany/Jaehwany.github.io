@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "MySQL 12 - 인라인 뷰(Inline View)"
+title:  "MySQL 13 - 인라인 뷰(Inline View)"
 categories: MySQL
 tags: [database,MySQL]
 toc: true
@@ -9,7 +9,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: false
-order : 12
+order : 13
 ---
 
 <br>
