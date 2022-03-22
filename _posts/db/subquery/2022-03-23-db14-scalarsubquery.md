@@ -29,7 +29,7 @@ order : 14
 
 ``` sql
 select e.employee_id, e.first_name, salary, department_id,
-	   (select avg(salary) from employees where department_id = 60) as avg60
+	 (select avg(salary) from employees where department_id = 60) as avg60
 from employees e
 where department_id = 60;
 ```
@@ -37,9 +37,9 @@ where department_id = 60;
 ``` sql
 select
 	(select sum(salary) from employees where department_id = 50) sum50,
-    (select avg(salary) from employees where department_id = 60) avg60,
-    (select max(salary) from employees where department_id = 90) max90,
-    (select min(salary) from employees where department_id = 90) min90
+	(select avg(salary) from employees where department_id = 60) avg60,
+	(select max(salary) from employees where department_id = 90) max90,
+	(select min(salary) from employees where department_id = 90) min90
 from dual;
 ```
 
@@ -51,7 +51,7 @@ from dual;
 
 - 서브 쿼리를 이용한 CREATE, INSERT, UPDATE, DELETE
 
-- CREATE
+- <span style ="background-color:#fff5b1">CREATE</span>
 
 ``` sql
 -- employees table을 emp_copy라는 이름으로 복사(컬럼 이름 동일).
@@ -72,7 +72,7 @@ where department_id = 50;
 
 -------------
 
-- INSERT
+- <span style ="background-color:#fff5b1">INSERT</span>
 
 ```sql
 -- employees table에서 부서번호가 80인 사원의 모든 정보를 emp_blank에 insert
@@ -83,7 +83,7 @@ where department_id = 80;
 
 ----------------
 
-- UPDATE
+- <span style ="background-color:#fff5b1">UPDATE</span>
 
 ```sql
 -- employees table의 모든 사원의 평균 급여보다 적게 받는 emp50 table의 사원의 급여를 500 인상.
@@ -94,7 +94,7 @@ where sal < (select avg(salary) from employees);
 
 ------------
 
-- DELETE
+- <span style ="background-color:#fff5b1">DELETE</span>
 
 ```sql
 -- employees table의 모든 사원의 평균 급여보다 적게 받는 emp50 table의 사원은 퇴사.
