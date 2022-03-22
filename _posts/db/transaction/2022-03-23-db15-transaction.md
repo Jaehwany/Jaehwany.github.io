@@ -43,36 +43,9 @@ order : 15
 ###### ✔ 트랜잭션 처리
 
 - <span style ="background-color:#fff5b1">commit</span> : 일의 시작과 끝이 완벽하게 마무리가 되면 테이블에 적용 (일관성 있는 상태)
-
 - <span style ="background-color:#fff5b1">rollback</span> : 처리도중 인터럽트(interrupt:장애)가 발생하면 되돌아옴 (원자성 깨진 상태)
 
-``` sql
-use ssafydb;
-
-create table book(
-	num int primary key auto_increment,
-	subject varchar(50),
-	price int,
-	year date
-);
-
--- ex2) 데이터 추가
--- 오라클 무작정 따라하기, 10000, 오늘날짜
--- 자바 3일 완성,15000, 2019-01-12
--- JSP 달인되기,25000, 2021-04-05
--- 자동 커밋해제: set autocommit=0; / 자동 커밋설정: set autocommit=1;
-set autocommit=0;
-insert into book(subject,price,year) values('오라클 무작정따라하기',10000, now());
-insert into book(subject,price,year) values('자바 3일 완성',15000, '2017-01-12');
-insert into book(subject,price,year) values('JSP 달인되기',25000,'2021-04-05');
-insert into book(subject,price,year) values('MySQL따라하기',35000,'2020-05-05');
-commit;
-select * from book;
-```
-
----------------
-
-
+--------------
 
 - 트랜젝션 처리를 안했을 경우 오류 상황
 
