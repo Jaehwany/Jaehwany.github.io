@@ -59,8 +59,8 @@
         <span class="nav__sub-title"># 백엔드</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Servlet" %}
-                        <li><a href="/categories/Servlet" class="">- Java Servlet ({{category[1].size}})</a></li>
+                    {% if category[0] == "Web" %}
+                        <li><a href="/categories/Web" class="">- Web ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
