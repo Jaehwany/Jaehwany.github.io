@@ -37,7 +37,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} - 2em);
   }
 
   > * {
@@ -134,12 +134,11 @@
     display: block;
     width: auto;
     height: auto;
-    padding-left: 13px;
     margin-bottom: 15px;
   }
 
   img {
-    max-width: 130px;
+    max-width: 150px;
     border-radius: 5%;
 
     @include breakpoint($large) {

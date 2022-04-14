@@ -15,8 +15,9 @@
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
+    margin-left: 30px;
     padding-right: $right-sidebar-width;
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 

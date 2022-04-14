@@ -20,10 +20,10 @@ after_footer_scripts:
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Dev Note 😃"
+title                    : "My Dev Note 😃"
 title_separator          : "|"
-subtitle                 : "10000 hours rule" #"🔥시간 더 박으면 그만이야🔥"
-name                     : "Jaehwan Lee"
+subtitle                 : #"안녕하세요 🐥"
+name                     : "곰팡이"
 description              : "흔적 남기기😃"
 url                      : "https://Jaehwany.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jaehwan Lee"
+  name             : 
   avatar           :  "/assets/images/profile2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "🔥시간 더 쓰면 그만이야🔥" #"공부기록 블로그😃"
+  bio              : "안녕하세요 🐥" #"공부기록 블로그😃"
   location         : "Somewhere"
   email            : 
   links:
@@ -130,10 +130,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:eejh22@gmail.com"
-
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+   
 
 # Site Footer
 footer:
