@@ -17,15 +17,15 @@ order : 5
 ###### 🚥 HTTP 프로토콜 특징
 
 - **Connectionless (비연결지향)**
-  - Client가 Server에 요청
-  - Server는 요청 처리 후 Client에 응답
+  - Client : Server에 요청 
+  - Server : 요청 처리 후 Client 응답
   - 응답 후 연결 해제 
 
 
 -------------
 
 - **Stateless (상태정보 유지 X)**
-  - 클라이언트의 상태 정보를 가지지 않는 서버 처리 방식
+  - 클라이언트의 상태 정보를 <span style="color:red">유지하지 않는</span> 서버 처리 방식
   - 클라이언트와 데이터를 주고 받았다 해도, 이전 데이터를 유지하지 않는다
 
 -----------
@@ -48,12 +48,11 @@ order : 5
 
 - 공통점 
   - 웹 통신 간 클라이언트 **상태 정보**를 **유지**하기 위해 사용
-  - 전역에 저장하기 때문에 project 내의 모든 JSP에서 사용가능
   - Map 형식으로 관리하기 때문에 key 값의 중복을 허용하지 않는다
 
 ---------
 
-- 차이점 : 쿠키 (<span style="color:red">**개인 PC**</span>에 저장), 세션 (**<span style="color:red">웹 서버</span>**에 저장)
+- 차이점 : Cookie (<span style="color:red">**개인 PC**</span>에 저장), Session(**<span style="color:red">웹 서버</span>**에 저장)
 
 ​			
 
@@ -61,13 +60,15 @@ order : 5
 
 ###### 🔔  Question
 
+--------------
+
 **Q. 비교적 많은 장점을 가진 Session을 쓰면 되는데 왜 Cookie를 왜 쓰는걸까?**
 
-<br>
+-------------
 
 <span style="color:red">**A**</span>. Session은 서버 자원을 사용하기 때문에 사용자가 많을 수록 서버 자원 소모가 심하다.
 
-Cookie와 Session을 적절하게 병행 사용하면 서버 자원 낭비를 방지할 수 있고 웹 사이트 속도 또한 향상시킬 수 있다.
+Cookie와 Session을 적절히 병행 사용하면 서버 자원 낭비를 방지할 수 있고 웹 속도 또한 향상시킬 수 있다.
 
 
 
