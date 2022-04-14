@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Cookie & Session"
+title:  "Web - Cookie & Session"
 categories: Web
 tags: [Web]
 toc: true
