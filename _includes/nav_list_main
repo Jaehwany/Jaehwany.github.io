@@ -12,28 +12,9 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title"># 알고리즘</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "BOJ" %}
-                        <li><a href="/categories/boj" class="">- BOJ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-             <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "CONCEPT" %}
-                        <li><a href="/categories/concept" class="">- 개념 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+      
             
-        <span class="nav__sub-title"># 프론트엔드</span>
+        <!-- <span class="nav__sub-title"># 프론트엔드</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HTML" %}
@@ -54,9 +35,33 @@
                         <li><a href="/categories/js" class="">Java Script ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul> -->
+
+        <span class="nav__sub-title"># Infra</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Docker" %}
+                        <li><a href="/categories/docker" class="">Docker ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
-        
-        <span class="nav__sub-title"># 백엔드</span>
+                <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "CSS" %}
+                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "JS" %}
+                        <li><a href="/categories/js" class="">Java Script ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+        <span class="nav__sub-title"># Backend</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Web" %}
@@ -79,44 +84,39 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title"># 데이터베이스</span>
+        <span class="nav__sub-title"># DataBase</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "MySQL" %}
-                        <li><a href="/categories/MySQL" class="">- MySQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/MySQL" class="">- MySQL 개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+    
+
+      
+
+            <span class="nav__sub-title"># 알고리즘</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "JDBC" %}
-                        <li><a href="/categories/JDBC" class="">- JDBC ({{category[1].size}})</a></li>
+                    {% if category[0] == "BOJ" %}
+                        <li><a href="/categories/boj" class="">- BOJ ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+             <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "CONCEPT" %}
+                        <li><a href="/categories/concept" class="">- 개념 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title"># 인프라</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "" %}
-                        <li><a href="/categories/html" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-                <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "CSS" %}
-                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "JS" %}
-                        <li><a href="/categories/js" class="">Java Script ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
       </li>
   </ul>
 </nav>

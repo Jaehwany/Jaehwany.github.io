@@ -16,7 +16,6 @@ order : 12
 
 ![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
-👉 Source Link : [Nested Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/1.%20Subquery_nested(where))
 
 <br>
 

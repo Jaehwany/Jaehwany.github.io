@@ -16,10 +16,6 @@ order : 14
 
 ![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
-👉 Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/3.%20Subquery_scalar(select)/Scalar_Subquery.sql)
-
-👉 Source Link : [Subquery 활용](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/4.%20Subquery_%ED%99%9C%EC%9A%A9/Uses_Subquery.sql)
-
 <br>
 
 ###### ✔ 스칼라 서브 쿼리 

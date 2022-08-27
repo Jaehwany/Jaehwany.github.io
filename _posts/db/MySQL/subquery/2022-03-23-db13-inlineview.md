@@ -16,7 +16,6 @@ order : 13
 
 ![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
-👉 Source Link : [InlineView Subquery](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/3.%20Subquery/2.%20Subquery_InlineView(from)/Inlineview_Subquery.sql)
 
 <br>
 

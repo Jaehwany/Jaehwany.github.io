@@ -16,7 +16,6 @@ order : 2
 
 ![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
-👉 Source Link : [Make_database](https://github.com/Jaehwany/Database/blob/036dc94a641e1156a4abbb18f3fbbba3a5cc7168/1.%20basic/1.%20database_make.sql)
 
 <br>
 

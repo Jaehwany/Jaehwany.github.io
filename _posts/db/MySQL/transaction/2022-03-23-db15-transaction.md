@@ -16,7 +16,6 @@ order : 15
 
 ![image-20220322031630012](../../../images/db/image-20220322031630012.png)
 
-👉 Source Link : [트랜잭션 처리](https://github.com/Jaehwany/Database/blob/7e2dbfa8930a7e402d17be3c31d67dafd58f0cee/4.%20Transaction/1.%20transaction%20%EC%B2%98%EB%A6%AC.sql)
 
 <br>
 

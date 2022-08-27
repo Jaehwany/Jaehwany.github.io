@@ -109,7 +109,7 @@ analytics:
 author:
   name             : 
   avatar           :  "/assets/images/profile2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "안녕하세요 🐥" #"공부기록 블로그😃"
+  bio              : "공부기록 블로그😃"
   location         : "Somewhere"
   email            : 
   links:
